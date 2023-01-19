@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  transition: 0.5s ease;
+  background: #ffb303;
+}
+
+header input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  margin-left: 30px;
+body {
+  background: url(../image/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*memberi style pada class panel default*/
+.panel-default {
+  opacity: 0.9;
+  margin-top: 180px;
+}
+.form-group.last {
+  margin-bottom: 0px;
+}
+
+.account-container {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-form {
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 28px;
+}
